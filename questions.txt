@@ -1,0 +1,15 @@
+1. when you initialize the socket with the following line of code:
+   s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+   the default protocol used is TCP. 
+
+2. Server sockets bind to ports and listen for incoming connections while Client sockets connect and listening to serverings and 
+   initiate the comunication. 
+
+3. s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) -- This line lets us reuse the same port 
+
+4. Server recieves TCP sockets  with a payload. this payload could be some form of request the client is asking the server.
+
+5. tells us that thrhe request that was sent to the server and if a 200 status code indicating it was succesful. 
+
+
+
